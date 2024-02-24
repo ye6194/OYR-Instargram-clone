@@ -1,0 +1,11 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_a {
+  font-size: 0.75em;
+  margin: 0.5%;
+}
