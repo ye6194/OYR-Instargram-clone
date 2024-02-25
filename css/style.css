@@ -1,6 +1,29 @@
 #phone {
-  width: 18%;
+  width: 260px;
   height: auto;
+}
+
+#instagram {
+  width: 174px;
+  height: auto;
+}
+
+.login_box {
+  width: 268px;
+  height: 36px;
+  margin-top: 1%;
+  background-color: #fbfbfb;
+  border-color: #d3d3d3;
+  border-width: 0.7px;
+  border-radius: 3px;
+}
+
+.box {
+  border-style: solid;
+  border-color: #d3d3d3;
+  border-width: 0.7px;
+  border-radius: 3px;
+  width: 50%;
 }
 
 .footer {

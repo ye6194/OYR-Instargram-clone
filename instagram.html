@@ -9,19 +9,33 @@
     <title>Instagram</title>
     <link rel="icon" type="images/png" href="images/instagram_logo.png" />
   </head>
+
   <body>
     <div style="display: flex">
       <aside style="flex-basis: 50%">
         <img id="phone" src="images/phone.png" style="justify-content: end" />
       </aside>
-      <main style="flex-basis: 50%">
-        <section style="justify-content: left">
+
+      <main style="flex-basis: 50%; display: flex; flex-direction: column">
+        <section style="justify-content: left" class="box">
+          <img id="instagram" src="images/instagram_login.png" />
           <form>
-            <input placeholder="id" />
-            <input placeholder="pw" />
+            <div><input placeholder="전화번호, 사용자 이름 또는 닉네임" class="login_box" /></div>
+            <div><input placeholder="비밀번호" class="login_box" /></div>
           </form>
+          <button>로그인</button>
+          <div>또는</div>
+          <div><img src="" alt="Facebook" />Facebook으로 로그인</div>
+          <div>비밀번호를 잊으셨나요?</div>
         </section>
-        <section>앱스토어 플레이스토어</section>
+        <section class="box">계정이 없으신가요? <a>가입하기</a></section>
+        <section>
+          <div>앱을 다운로드하세요.</div>
+          <div>
+            <img src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png" alt="GooglePlay에서 다운로드" />
+            <img src="https://static.cdninstagram.com/rsrc.php/v3/yw/r/LBxTdceDfgS.png" alt="Microsoft에서 다운로드" />
+          </div>
+        </section>
       </main>
     </div>
     <footer>
