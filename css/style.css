@@ -23,7 +23,15 @@
   border-color: #d3d3d3;
   border-width: 0.7px;
   border-radius: 3px;
-  width: 50%;
+  width: 348.5px;
+}
+
+.line {
+  display: inline-block;
+  align-self: center; /* align-items, self, content 등 찾아보기 */
+  width: 103px;
+  height: 1px;
+  background-color: #d3d3d3;
 }
 
 .footer {

@@ -12,11 +12,14 @@
 
   <body>
     <div style="display: flex">
+      <!-- aside -->
       <aside style="flex-basis: 50%">
-        <img id="phone" src="images/phone.png" style="justify-content: end" />
+        <img id="phone" src="images/phone.png" />
       </aside>
 
+      <!-- main -->
       <main style="flex-basis: 50%; display: flex; flex-direction: column">
+        <!-- 로그인 -->
         <section style="justify-content: left" class="box">
           <img id="instagram" src="images/instagram_login.png" />
           <form>
@@ -24,20 +27,48 @@
             <div><input placeholder="비밀번호" class="login_box" /></div>
           </form>
           <button>로그인</button>
-          <div>또는</div>
+
+          <div style="display: flex">
+            <span class="line"></span>
+            <span>또는</span>
+            <span class="line"></span>
+          </div>
+
           <div><img src="" alt="Facebook" />Facebook으로 로그인</div>
           <div>비밀번호를 잊으셨나요?</div>
         </section>
+
+        <!-- 계정 없음 -->
         <section class="box">계정이 없으신가요? <a>가입하기</a></section>
+
+        <!-- 앱 다운로드 -->
         <section>
           <div>앱을 다운로드하세요.</div>
           <div>
-            <img src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png" alt="GooglePlay에서 다운로드" />
-            <img src="https://static.cdninstagram.com/rsrc.php/v3/yw/r/LBxTdceDfgS.png" alt="Microsoft에서 다운로드" />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DBAA69F41-1987-4CF6-AC10-EB0C28D811A6%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps%3A%2F%2Fwww.google.com%2F"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img
+                src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png"
+                alt="GooglePlay에서 다운로드"
+                style="width: auto; height: 40px" />
+            </a>
+            <a
+              href="ms-windows-store://pdp/?productid=9nblggh5l9xt&amp;referrer=appbadge&amp;source=www.instagram.com&amp;mode=mini&amp;pos=0%2C0%2C1920%2C1020"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img
+                src="https://static.cdninstagram.com/rsrc.php/v3/yw/r/LBxTdceDfgS.png"
+                alt="Microsoft에서 다운로드"
+                style="width: auto; height: 40px" />
+            </a>
           </div>
         </section>
       </main>
     </div>
+
+    <!-- footer -->
     <footer>
       <!-- 요소 간 간격 띄우기 -->
       <div class="footer">
