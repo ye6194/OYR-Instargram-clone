@@ -26,7 +26,25 @@
   width: 348.5px;
 }
 
-.line {
+#login_button {
+  margin-top: 15px;
+  width: 274px;
+  height: 32px;
+  border-style: none;
+  border-radius: 7px;
+  background-color: rgba(0, 149, 246, 0.3);
+  opacity: 1;
+
+  color: #fafafa;
+  font-weight: 1000;
+
+  /*
+  --ig-primary-button: 0, 149, 246; 버튼 비활성화 시
+  --ig-primary-button-hover: 24, 119, 242; 버튼 활성화 시
+  */
+}
+
+.or_line {
   display: inline-block;
   align-self: center; /* align-items, self, content 등 찾아보기 */
   width: 103px;
