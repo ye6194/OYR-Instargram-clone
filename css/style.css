@@ -3,9 +3,26 @@
   height: auto;
 }
 
+main {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* ? */
+}
+
+#login_input {
+  justify-content: left;
+  align-content: center;
+
+  display: flex; /* ? */
+  flex-direction: column; /* ? */
+  align-items: center; /* ? */
+}
+
 #instagram {
   width: 174px;
   height: auto;
+  margin-top: 50px;
 }
 
 .login_box {
@@ -19,11 +36,17 @@
 }
 
 .box {
+  width: 350px;
   border-style: solid;
   border-color: #d3d3d3;
   border-width: 0.7px;
   border-radius: 3px;
-  width: 348.5px;
+  margin-bottom: 10px;
+
+  display: flex; /* ? */
+  flex-direction: column; /* ? */
+  align-items: center; /* ? */
+  justify-content: center;
 }
 
 #login_button {
@@ -50,6 +73,13 @@
   width: 103px;
   height: 1px;
   background-color: #d3d3d3;
+}
+
+#downroad {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .footer {
