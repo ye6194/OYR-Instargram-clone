@@ -1,13 +1,24 @@
+aside {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* ??? */
+  align-items: flex-end;
+  height: 660px;
+}
+
 #phone {
-  width: 260px;
-  height: auto;
+  margin-top: 25px;
+  position: relative;
+  z-index: -1;
 }
 
 main {
   flex-basis: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center; /* ? */
+  justify-content: center; /* ??? */
+  height: 660px;
 }
 
 #login_input {
@@ -22,7 +33,7 @@ main {
 #instagram {
   width: 174px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 40px;
 }
 
 .login_box {
@@ -75,11 +86,22 @@ main {
   background-color: #d3d3d3;
 }
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
 #downroad {
   width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+#downroad_img {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .footer {

@@ -14,7 +14,9 @@
     <div style="display: flex">
       <!-- aside -->
       <aside style="flex-basis: 50%">
-        <img id="phone" src="images/phone.png" />
+        <img
+          id="phone"
+          src="https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones.png?__makehaste_cache_breaker=HOgRclNOosk" />
       </aside>
 
       <!-- main -->
@@ -22,7 +24,7 @@
         <!-- 로그인 -->
         <section id="login_input" class="box">
           <img id="instagram" src="images/instagram_login.png" />
-          <form style="margin-top: 40px">
+          <form style="margin-top: 30px">
             <div><input placeholder="전화번호, 사용자 이름 또는 닉네임" class="login_box" /></div>
             <div><input placeholder="비밀번호" class="login_box" /></div>
             <button id="login_button">로그인</button>
@@ -36,29 +38,34 @@
 
           <div style="margin-top: 20px">
             <a
-              href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeCo7lIJAoKLJFqEgHxMC89V5tbvFE5GQStJczDGFDJLhu24SzsS8Fc6r9HxCzYjsYc_uA3JpVQwJ-201WjqP_L82QsaUhz_Gz2DfcjGnm3i_FMW8kGiDIva_4Z2s0P1EeoCjtPvukhuexNUY6Uahh6XQcnF0lPQTxMfp7GLOkOFuVczQSqnyigty-1wP4Uzu1PD5fucvRrR9_bgSICXKbW-oL0zadAIBibtuVCmh3trykdj8PRP19VIWFtQ0WcQLpAfU2X6w4ZKp7fhbxsKJcqgIohQ94_P6cmbAfxQQWITx_3ZOpESdivB7wShGEP1gBduQoRf3cmUYUYkoapVkpQAwolLOLeCEXWkf3sYRFRunXlQK59R7aFblvupgpU1LgXJAQi_PgqIE0tXwcQDI-TS6vFe_FFEL6EQans02cJEtY0kO_WH_1Ubdnf6CnlcjxMJQImZN5FkcnnCbr7VcO5uFRhoKtdo">
+              href="https://www.facebook.com/checkpoint/1501092823525282/?next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fencrypted_query_string%3DAeCo7lIJAoKLJFqEgHxMC89V5tbvFE5GQStJczDGFDJLhu24SzsS8Fc6r9HxCzYjsYc_uA3JpVQwJ-201WjqP_L82QsaUhz_Gz2DfcjGnm3i_FMW8kGiDIva_4Z2s0P1EeoCjtPvukhuexNUY6Uahh6XQcnF0lPQTxMfp7GLOkOFuVczQSqnyigty-1wP4Uzu1PD5fucvRrR9_bgSICXKbW-oL0zadAIBibtuVCmh3trykdj8PRP19VIWFtQ0WcQLpAfU2X6w4ZKp7fhbxsKJcqgIohQ94_P6cmbAfxQQWITx_3ZOpESdivB7wShGEP1gBduQoRf3cmUYUYkoapVkpQAwolLOLeCEXWkf3sYRFRunXlQK59R7aFblvupgpU1LgXJAQi_PgqIE0tXwcQDI-TS6vFe_FFEL6EQans02cJEtY0kO_WH_1Ubdnf6CnlcjxMJQImZN5FkcnnCbr7VcO5uFRhoKtdo"
+              class="link">
               <img src="images/facebook_logo.png" alt="Facebook" style="width: 19px; height: 19px" />
               Facebook으로 로그인
             </a>
           </div>
           <div style="margin: 20px">
-            <a href="https://www.instagram.com/accounts/password/reset/">비밀번호를 잊으셨나요?</a>
+            <a href="https://www.instagram.com/accounts/password/reset/" class="link">비밀번호를 잊으셨나요?</a>
           </div>
         </section>
 
         <!-- 계정 없음 -->
         <section class="box" style="height: 62.5px">
-          <span>계정이 없으신가요? <a href="https://www.instagram.com/accounts/emailsignup/">가입하기</a></span>
+          <span
+            >계정이 없으신가요?
+            <a href="https://www.instagram.com/accounts/emailsignup/" class="link">가입하기</a></span
+          >
         </section>
 
         <!-- 앱 다운로드 -->
         <section id="downroad">
           <div style="margin-top: 10px">앱을 다운로드하세요.</div>
-          <div style="margin-top: 10px">
+          <span id="downroad_img">
             <a
               href="https://play.google.com/store/apps/details?id=com.instagram.android&referrer=ig_mid%3DBAA69F41-1987-4CF6-AC10-EB0C28D811A6%26utm_campaign%3DloginPage%26utm_content%3Dlo%26utm_source%3Dinstagramweb%26utm_medium%3Dbadge%26original_referrer%3Dhttps%3A%2F%2Fwww.google.com%2F"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+              class="link">
               <img
                 src="https://static.cdninstagram.com/rsrc.php/v3/ye/r/UtJtFmFLCiD.png"
                 alt="GooglePlay에서 다운로드"
@@ -67,13 +74,15 @@
             <a
               href="ms-windows-store://pdp/?productid=9nblggh5l9xt&amp;referrer=appbadge&amp;source=www.instagram.com&amp;mode=mini&amp;pos=0%2C0%2C1920%2C1020"
               target="_blank"
-              rel="noopener noreferrer">
+              rel="noopener noreferrer"
+              class="link"
+              style="display: flex; justify-content: center">
               <img
                 src="https://static.cdninstagram.com/rsrc.php/v3/yw/r/LBxTdceDfgS.png"
                 alt="Microsoft에서 다운로드"
                 style="width: auto; height: 40px" />
             </a>
-          </div>
+          </span>
         </section>
       </main>
     </div>
